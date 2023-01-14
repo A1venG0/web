@@ -51,7 +51,8 @@ h1 span {
 	justify-content: flex-start;
 	width: 250px;
 	height: 70px;
-	padding: 16px 40px;
+	margin: 0px 90px;
+	padding: 20px 40px;
 	text-decoration: none;
 	text-align: center;
 
@@ -68,7 +69,7 @@ h1 span {
 	letter-spacing: 0.09em;
 
 	color: #FCEFE2;
-	padding: 12px 35px;
+	padding: 13px 35px;
 	text-align: center;
 	
 }
