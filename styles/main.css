@@ -48,23 +48,30 @@ h1 span {
 	background: #ED5C01;
 	border-radius: 247px;
 	display: flex;
-	width: 200px;
-	height: 50px;
-	align-items: flex-start;
-	padding: 16px 36px;
+	justify-content: flex-start;
+	width: 250px;
+	height: 70px;
+	padding: 16px 40px;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+.main-button span {
 	font-family: 'Khmer';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 31px;
 	line-height: 38px;
 /* identical to box height, or 190% */
 
 	letter-spacing: 0.09em;
 
 	color: #FCEFE2;
-	text-decoration: none;
+	padding: 12px 35px;
+	text-align: center;
+	
 }
-
 
 .logo {
 	/*position: absolute;*/
