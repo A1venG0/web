@@ -52,7 +52,17 @@ h1 span {
 	height: 50px;
 	align-items: flex-start;
 	padding: 16px 36px;
+	font-family: 'Khmer';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 38px;
+/* identical to box height, or 190% */
 
+	letter-spacing: 0.09em;
+
+	color: #FCEFE2;
+	text-decoration: none;
 }
 
 
