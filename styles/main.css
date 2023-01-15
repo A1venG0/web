@@ -34,12 +34,9 @@ h1 span {
 }
 
 .main-slogan {
-	/*position: absolute;*/
 	width: auto;
 	height: 370px;
 	margin: 120px 50px;
-	/*left: 48px;
-	top: 243px;*/
 }
 
 .paws {
@@ -67,8 +64,6 @@ h1 span {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 38px;
-/* identical to box height, or 190% */
-
 	letter-spacing: 0.09em;
 
 	color: #FCEFE2;
@@ -78,12 +73,9 @@ h1 span {
 }
 
 .logo {
-	/*position: absolute;*/
 	width: 183px;
 	height: 40px;
 	margin: 25px 125px;
-	/*left: 125px;
-	top: 24px;*/
 }
 .logo-name {
 	font-family: 'Josefin Sans';
@@ -99,12 +91,9 @@ h1 span {
 }
 
 .menu {
-	/*position: absolute;*/
 	width: 500px;
 	height: 50px;
 	margin-top: 22px;
-	/*left: 438px;
-	top: 22px;*/
 }
 
 header {
@@ -128,8 +117,6 @@ ul > li {
 	font-size: 16px;
 	line-height: 28px;
 	width: 70px;
-/* or 238% */
-
 	letter-spacing: 0.01em;
 
 	color: #062D3E;
@@ -171,19 +158,14 @@ li .menu-item:hover {
 .menu-buttons {
 	box-sizing: border-box;
 	z-index: 1;
-
-/* Auto layout */
-
 	display: flex;
-	/*flex-direction: row;*/
 	justify-content: space-between;
 	padding: 12px 32px;
-	/*position: absolute;*/
+
 	width: 400px;
 	height: auto;
 	margin: 10px;
-	/*right: 200px;
-	top: 50px;*/
+
 }
 
 .sign-in-button {
@@ -198,12 +180,10 @@ li .menu-item:hover {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 38px;
-/* identical to box height, or 190% */
-
 	letter-spacing: 0.09em;
 
 	color: #FFFFFF;
-/* Inside auto layout */
+
 
 	
 }
@@ -220,14 +200,11 @@ li .menu-item:hover {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 38px;
-/* identical to box height, or 190% */
 
 	letter-spacing: 0.09em;
 
 	color: #FFFFFF;
 
-
-/* Inside auto layout */
 }
 
 /* Pets section */
@@ -292,6 +269,7 @@ li .menu-item:hover {
 	position: absolute;
 	top: 0px;
 	right: 0px;
+	height: 185px;
 }
 
 #garanties-section h2 {
@@ -300,12 +278,8 @@ li .menu-item:hover {
 	font-weight: 400;
 	font-size: 46px;
 	line-height: 38px;
-/* identical to box height, or 83% */
-
 	letter-spacing: 0.06em;
-
 	color: #062D3E;
-
 	padding: 50px 0px 0px 0px;
 	text-align: center;
 }
@@ -319,23 +293,28 @@ li .menu-item:hover {
 .cards {
 	display: flex;
 	justify-content: space-between;
-	height: 588px;
+	height: auto;
 }
 
 .card-one {
 	background-image: url('../assets/rectangle_yellow.png');
 	margin-left: 70px;
 	margin-top: 40px;
+	height: 572px;
+}
+
+.on-selection {
+	padding-left: 230px;
+	width: 250px;
 }
 
 .card {
 	width: 540px;
-	height: 588px;
 }
 
 .card-content {
 	width: 540px;
-	height: 417px;
+	height: 500px;
 }
 
 .card-text {
@@ -375,14 +354,32 @@ li .menu-item:hover {
 }
 
 .card-button {
-	padding-top: 7px;
-	padding-left: 32px;
+	display: inline-block;
+	background: #062D3E;
+	border-radius: 190px;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 32px;
+	padding: 12px 35px;
+
+	font-family: 'Khmer';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 38px;
+/* identical to box height, or 190% */
+
+	letter-spacing: 0.09em;
+
+	color: #EBE3CC;
+
 }
 
 .card-two {
 	margin-left: 30px;
 	background-image: url(../assets/Rectangle_gar.png);
-	margin-top: 40px;
+	margin-top: 55px;
+	height: 514px;
 }
 
 .card-image-two {
@@ -394,6 +391,7 @@ li .menu-item:hover {
 	margin-left: 30px;
 	margin-top: 120px;
 	background-image: url(../assets/Rectangle_gar_1.png);
+	height: 572px;
 }
 
 .gallery-left {
