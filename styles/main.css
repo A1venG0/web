@@ -11,13 +11,17 @@
 	background: #FFFAF5;
 }
 
+/* Main section */
+#main-section {
+	height: 574px;
+}
+
 h1 {
 	font-family: 'Josefin Sans';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 120px;
-	line-height: 100px;
-/* or 96% */
+	font-size: 96px;
+	line-height: 92px;
 
 	letter-spacing: -0.05em;
 	text-transform: uppercase;
@@ -32,16 +36,16 @@ h1 span {
 .main-slogan {
 	/*position: absolute;*/
 	width: auto;
-	height: 1000px;
-	margin: 200px 100px;
+	height: 370px;
+	margin: 120px 50px;
 	/*left: 48px;
 	top: 243px;*/
 }
 
 .paws {
-	padding: 50px 600px;
-	width: 250px;
-	height: 250px;
+	padding: 8px 500px;
+	width: 172px;
+	height: 179px;
 }
 
 .main-button {
@@ -49,10 +53,9 @@ h1 span {
 	border-radius: 247px;
 	display: flex;
 	justify-content: flex-start;
-	width: 250px;
+	width: 197px;
 	height: 70px;
-	margin: 0px 90px;
-	padding: 20px 40px;
+	margin-left: 70px;
 	text-decoration: none;
 	text-align: center;
 
@@ -62,23 +65,23 @@ h1 span {
 	font-family: 'Khmer';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 31px;
+	font-size: 20px;
 	line-height: 38px;
 /* identical to box height, or 190% */
 
 	letter-spacing: 0.09em;
 
 	color: #FCEFE2;
-	padding: 13px 35px;
+	padding: 13px 40px;
 	text-align: center;
 	
 }
 
 .logo {
 	/*position: absolute;*/
-	width: 300px;
-	height: 100px;
-	margin: 30px 50px;
+	width: 183px;
+	height: 40px;
+	margin: 25px 125px;
 	/*left: 125px;
 	top: 24px;*/
 }
@@ -86,8 +89,8 @@ h1 span {
 	font-family: 'Josefin Sans';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 30px;
-	line-height: 42px;
+	font-size: 18px;
+	line-height: 38px;
 
 	letter-spacing: 0.01em;
 
@@ -97,9 +100,9 @@ h1 span {
 
 .menu {
 	/*position: absolute;*/
-	width: auto;
+	width: 500px;
 	height: 50px;
-	margin: 30px 20px;
+	margin-top: 22px;
 	/*left: 438px;
 	top: 22px;*/
 }
@@ -117,13 +120,14 @@ ul > li {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 16px;
+	padding: 8px;
 	text-decoration: none;
 	font-family: 'Josefin Sans';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 26px;
-	line-height: 38px;
+	font-size: 16px;
+	line-height: 28px;
+	width: 70px;
 /* or 238% */
 
 	letter-spacing: 0.01em;
@@ -133,28 +137,34 @@ ul > li {
 	opacity: 0.77;
 }
 li .menu-item:hover {
-	background-image: url("hover.png");
+	background-image: url("../assets/hover_2.png");
+	color: white;
 }
 .background-rectangle {
 	position: absolute;
-	width: 1024px;
-	height: 1200px;
+	width: 400px;
+	height: 800px;
 	right: 0;
 	top: 0;
+}
+
+.main-left {
+	float: right;
 }
 
 .decoration-main {
 	position: absolute;
 	right: 0px;
-	top: 260px;
-	height: 500px;
+	top: 200px;
+	z-index: 1;
+	height: 265px;
 }
 
 .main-image {
 	position: absolute;
-	right: 700px;
-	height: 850px;
-	top: 300px;
+	right: 180px;
+	height: 600px;
+	top: 180px;
 	z-index: 1;
 }
 
@@ -166,12 +176,12 @@ li .menu-item:hover {
 
 	display: flex;
 	/*flex-direction: row;*/
-	justify-content: space-around;
+	justify-content: space-between;
 	padding: 12px 32px;
 	/*position: absolute;*/
-	width: 1000px;
+	width: 400px;
 	height: auto;
-	margin: 20px;
+	margin: 10px;
 	/*right: 200px;
 	top: 50px;*/
 }
@@ -179,22 +189,20 @@ li .menu-item:hover {
 .sign-in-button {
 	border: 2px solid #FFFFFF;
 	border-radius: 190px;
-	width: 200px;
-	height: 100px;
+	width: 138px;
+	height: 62px;
 	background: #062D3E;
 
 	font-family: 'Khmer';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 28px;
+	font-size: 20px;
 	line-height: 38px;
 /* identical to box height, or 190% */
 
 	letter-spacing: 0.09em;
 
 	color: #FFFFFF;
-
-
 /* Inside auto layout */
 
 	
@@ -203,14 +211,14 @@ li .menu-item:hover {
 .sign-up-button {
 	border: 2px solid #FFFFFF;
 	border-radius: 190px;
-	width: 200px;
-	height: 100px;
+	width: 138px;
+	height: 62px;
 	background: #062D3E;
 
 	font-family: 'Khmer';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 28px;
+	font-size: 20px;
 	line-height: 38px;
 /* identical to box height, or 190% */
 
@@ -220,4 +228,180 @@ li .menu-item:hover {
 
 
 /* Inside auto layout */
+}
+
+/* Pets section */
+
+#pets-section {
+	background: #ED5C01;
+	height: 320px;
+}
+
+.pets {
+	height: 320px;
+}
+
+.bone {
+	padding: 10px 4px;
+	vertical-align: top;
+}
+
+.category {
+	width: 210px;
+	height: 210px;
+	padding: 40px 0px 0px 60px;
+}
+
+.gallery {
+	width: 810px;
+	height: 320px;
+	display: flex;
+	flex-flow: column;
+	list-style: none;
+}
+.gallery-block {
+	display: inline-block;
+	vertical-align: middle;
+	flex: right;
+	margin-left: 50px;
+	padding-bottom: 30px;
+}
+
+.first-row {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+
+.gallery-image {
+	filter: brightness(50%);
+}
+
+.gallery-image:hover {
+	filter: brightness(100%);
+}
+
+#garanties-section {
+	position: relative;
+	background: #EBE3CC;
+	height: 828px;
+	overflow: hidden;
+}
+
+.blue-claws {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#garanties-section h2 {
+	font-family: 'Khmer';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 38px;
+/* identical to box height, or 83% */
+
+	letter-spacing: 0.06em;
+
+	color: #062D3E;
+
+	padding: 50px 0px 0px 0px;
+	text-align: center;
+}
+
+.spiral {
+	position: absolute;
+	top: 30px;
+	left: 5px;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	height: 588px;
+}
+
+.card-one {
+	background-image: url('../assets/rectangle_yellow.png');
+	margin-left: 70px;
+	margin-top: 40px;
+}
+
+.card {
+	width: 540px;
+	height: 588px;
+}
+
+.card-content {
+	width: 540px;
+	height: 417px;
+}
+
+.card-text {
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 31px;
+/* or 155% */
+
+	text-align: justify;
+
+	color: #062D3E;
+
+	padding: 16px 28px 0 32px;
+}
+
+.card-header {
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+/* identical to box height, or 115% */
+
+	display: flex;
+	align-items: flex-end;
+
+	color: #062D3E;
+	padding-top: 36px;
+	padding-left: 32px;
+}
+
+.card-image {
+	padding-top: 61px;
+	padding-left: 32px;
+}
+
+.card-button {
+	padding-top: 7px;
+	padding-left: 32px;
+}
+
+.card-two {
+	margin-left: 30px;
+	background-image: url(../assets/Rectangle_gar.png);
+	margin-top: 40px;
+}
+
+.card-image-two {
+	padding-top: 110px;
+	padding-left: 32px;
+}
+
+.card-three {
+	margin-left: 30px;
+	margin-top: 120px;
+	background-image: url(../assets/Rectangle_gar_1.png);
+}
+
+.gallery-left {
+	background: transparent;
+	border: none;
+}
+
+.gallery-right {
+	background: transparent;
+	border: none;
 }
