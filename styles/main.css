@@ -402,4 +402,12 @@ li .menu-item:hover {
 .gallery-right {
 	background: transparent;
 	border: none;
+	position: absolute;
+	left: 90px;
+}
+
+.gallery-arrows {
+	position: absolute;
+	left: 1020px;
+	bottom: 100px;
 }
